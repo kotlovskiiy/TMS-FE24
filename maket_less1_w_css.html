@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>AXIT TOP SITE</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="axit_site.css">
     <style>
         span{ color: red;}
@@ -11,30 +12,30 @@
 
 
 <body>
-    <header>++
+    <header class="header">
         <nav>   <!--logo-->
-            <div>
+            <div class="header_logo">
                 <a href="">
                     <img src="/images/logo_menu.png" alt="AXIT LOGO">
                 </a>
             </div>
         </nav>     
-        <menu>   <!--menu-->
-            <ul>
-                <li>
-                    <a href="">features</a>
+        <menu class="header_menu">   <!--menu-->
+            <ul class="header_menu_list" >
+                <li class="header_menu_list1">
+                    <a href="" class="header_menu_link">features</a>
                 </li>
-                <li>
-                    <a href="">about</a>
+                <li class="header_menu_list2">
+                    <a href="" class="header_menu_link">about</a>
                 </li>
-                <li>
-                    <a href=""></a>pricing</a>
+                <li class="header_menu_list3">
+                    <a href="" class="header_menu_link">pricing</a>
                 </li>
-                <li>
-                    <a href="">reviews</a>
+                <li class="header_menu_list4">
+                    <a href="" class="header_menu_link">reviews</a>
                 </li>
-                <li>
-                    <a href="">contact</a>
+                <li lass="header_menu_list5">
+                    <a href="" class="header_menu_link">contact</a>
                 </li>
             </ul>
         </menu>    
@@ -42,57 +43,59 @@
     <main>
 
 
-        <section>   <!--banner1-->
-            <img src="/images/logo_big.png" alt="AXIT LOGO">
-            <h1>MOODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+        <section class="banner1">   <!--banner1-->
+            <img src="/images/logo_big.png" alt="AXIT LOGO" class="banner1_logo">
+            <h1 class="banner1_title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
             <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="">download</a>
-            <form action="">       <!--form-->
-                <h4>try your <span>free</span> trial today</h4>
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <p><input type="submit" value="Get Started"></p>
+            <p class="banner1_phrase">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="banner1_button">
+                <a href="" class="banner1_button_text">download</a>
+            </div>
+            <form action="" class="banner1_form">       <!--form-->
+                <h4 class="banner1_form_title">try your <span>free</span> trial today</h4>
+                <input type="text" placeholder="Name" class="input1">
+                <input type="text" placeholder="Email" class="input1">
+                <input type="password" placeholder="Password" class="input1">
+                <p><input type="submit" value="Get Started" class="input4"></p>
             </form>
         </section>
         
 
-        <section>   <!--soc.media-->
-            <h4>Social Media</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore fugiat esse id explicabo, aspernatur doloribus.</p>
-            <ul>
-                <li>
+        <section class="social">   <!--soc.media-->
+            <h4 class="social_title">Social Media</h4>
+            <p class="social_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore fugiat esse id explicabo, aspernatur doloribus.</p>
+            <ul class="social_list">
+                <li class="social_list_item">
                     <a href="">
                         <img src="/images/facebook.png" alt="facebook">
                     </a>
                 </li>
-                <li>
+                <li class="social_list_item">
                     <a href="">
                         <img src="/images/twitter.png" alt="twitter">
                     </a>
                 </li>
-                <li>
+                <li class="social_list_item">
                     <a href="">
                         <img src="/images/linkedin.png" alt="LinkedIN">
                     </a>
                 </li>
-                <li>
+                <li class="social_list_item">
                     <a href="">
                         <img src="/images/pintrest.png" alt="pintrest">
                     </a>
                 </li>
-                <li>
+                <li class="social_list_item">
                     <a href="">
                         <img src="/images/inst.png" alt="Instaram">
                     </a>
                 </li>
-                <li>
+                <li class="social_list_item">
                     <a href="">
                         <img src="/images/git.png" alt="GitHub">
                     </a>
                 </li>
-                <li>
+                <li class="social_list_item">
                     <a href="">
                         <img src="/images/rss.png" alt="RSS">
                     </a>
@@ -102,156 +105,153 @@
         </section>
 
 
-        <section>   <!--tabs ВЫПАДАЮЩИЙ СПИСОК?-->
+        <section class="tabs">   <!--tabs ВЫПАДАЮЩИЙ СПИСОК?-->
             <ul>
-                <li>   <!--tab1-->
-                    <div>
-                        <h3>Tabs with soft transitiong effect.</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus tenetur quos, quasi eos iure reprehenderit sit veniam ipsum? Asperiores, eos?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quas.</p>
-                        <a href="">download</a>
-                    <img src="/images/Rectangle 111.png" alt="">
+                <li>
+                    <div class="tabs_list">       <!--tab1-->
+                        <h3 class="tabs_list_1_title">Tabs with soft transitiong effect.</h3>
+                        <p class="tabs_list_1_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus tenetur quos, quasi eos iure reprehenderit sit veniam ipsum? Asperiores, eos? <br> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, magni.</p>
+                        <div class="tabs_list_1_button">
+                            <a href="" class="tabs_list_1_text">download</a>
+                        </div>
+                            <img src="/images/Rectangle 111.png" alt="" class="tabs_list_1_img">
                     </div>
                 </li>
                 <li>    <!--tab2-->
-                    <div>
-
-                    </div>
+                    <div></div>
                 </li>
                 <li>    <!--tab3-->
-                    <div>
+                    <div></div>
+                </li>
+            </ul>
+        </section>
 
+
+        <section class="about">   <!--about-->
+            <h2 class="about_title">Why this is awesome</h2>
+            <hr class="about_hr">
+            <p class="about_p">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <ul class="about_list"><!--lamp-->
+                <li class="about_list_item">
+                    <div>
+                        <img src="/images/lamp.png" alt="LAMP" class="about_list_item_img">
+                        <h3 class="about_list_item_title">thoughtful design</h3>
+                        <p class="about_list_item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi saepe dolore facilis rem. Sequi, placeat!</p>
+                    </div>
+                </li>
+                <li class="about_list_item">
+                    <div>
+                        <img src="/images/keyboard.png" alt="LAMP" class="about_list_item_img">
+                        <h3 class="about_list_item_title">thoughtful design</h3>
+                        <p class="about_list_item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi saepe dolore facilis rem. Sequi, placeat!</p>
+                    </div>
+                </li>
+                <li class="about_list_item">
+                    <div>
+                        <img src="/images/lightning.png" alt="LAMP" class="about_list_item_img">
+                        <h3 class="about_list_item_title">thoughtful design</h3>
+                        <p class="about_list_item_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi saepe dolore facilis rem. Sequi, placeat!</p>
                     </div>
                 </li>
             </ul>
         </section>
 
 
-        <section>   <!--about-->
-            <h2>Why this is awesome</h2>
-            <hr>
-            <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h5>
-            <ul><!--lamp-->
-                <li>
-                    
-                    <img src="/images/lamp.png" alt="LAMP">
-                    <h3>thoughtful design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi saepe dolore facilis rem. Sequi, placeat!</p>
-                    
-                </li>
-                <li>
-                    
-                    <img src="/images/keyboard.png" alt="LAMP">
-                    <h3>thoughtful design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi saepe dolore facilis rem. Sequi, placeat!</p>
-                    
-                </li>
-                <li>
-                    
-                    <img src="/images/lightning.png" alt="LAMP">
-                    <h3>thoughtful design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi saepe dolore facilis rem. Sequi, placeat!</p>
-                    
-                </li>
-            </ul>
-        </section>
-
-
-        <section>   <!--pricing-->
-            <h2>pricing options</h2>
-            <hr>
-            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-            <ul>
-                <li>        <!--basic plan-->
-                    <div>
+        <section class="price">   <!--pricing-->
+            <h2 class="price_title">pricing options</h2>
+            <hr class="about_hr">
+            <p class="about_p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <ul class="price_list">
+                <li class="price_list_item">        <!--basic plan-->
+                    <div class="price_list_item_div1">
                         <h4>basic</h4>
                     </div>
-                    <div>
+                    <div class="price_list_item_div2">
                         <p><b>$10</b></p>
                     </div>
-                    <div>
+                    <div class="price_list_item_div3">
                         <p>free for life</p>
                     </div>
                     <ul>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
                     </ul>
                 </li>
-                </li>
-                <li>        <!--optima plan-->
-                    <div>
+                <li class="price_list_item top">        <!--optima plan-->
+                    <div class="price_list_item_div1">
                         <h4>Optima</h4>
                     </div>
-                    <div>
+                    <div class="price_list_item_div2">
                         <p><b>$20</b></p>
                     </div>
-                    <div>
+                    <div class="price_list_item_div3">
                         <p>free for life</p>
                     </div>
                     <ul>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
                     </ul>
                 </li>
-                <li>        <!--pro plan-->
-                    <div>
+                <li class="price_list_item">        <!--pro plan-->
+                    <div class="price_list_item_div1">
                         <h4>pro</h4>
                     </div>
-                    <div>
+                    <div class="price_list_item_div2">
                         <p><b>$30</b></p>
                     </div>
-                    <div>
+                    <div class="price_list_item_div3">
                         <p>free for life</p>
                     </div>
                     <ul>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
+                        <li class="price_list_item_li">
+                            <p>1 GB Of Space</p>
+                        </li class="price_list_item_li">
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
-                        <li>
-                            <p>1 GB Of Space</p>
-                        </li>
-                        <li>
+                        <li class="price_list_item_li">
                             <p>1 GB Of Space</p>
                         </li>
                     </ul>
@@ -259,100 +259,115 @@
             </ul>
         </section>
 
-        <section>   <!--rewievs-->
-            <h2>What our customers are saying</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <ul>
-                <li>
+        <section class="reviews">   <!--reviews-->
+            <h2 class="reviews_title">What our customers are saying</h2>
+            <hr class="about_hr">
+            <p class="about_p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <ul class="about_list">
+                <li class="about_list_item">
                     <div>   <!--customer1-->
-                        <h3>Davis Rhiel Madsen</h3>
-                        <img src="/images/Ellipse 7.png" alt="First Customer Photo">
-                        <p>Manager</p>
-                        <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim officiis adipisci voluptatibus perferendis vitae libero, architecto omnis cumque in nostrum.</blockquote>
+                        <div class="bq-bg">
+                            <blockquote>Lorem Lodipismolestias ducimus? Autem, corpois? ipsum, dolor sit amet consectetur adipisicing elit. Enim officiis adipisci voluptatibus perferendis vitae libero, architecto omnis cumque in nostrum.</blockquote>
+                        </div>
+                        <img src="/images/Polygon 1.jpg" alt="" class="polygon">
+                        <h3 class="reviews_list_item_title">Davis Rhiel Madsen</h3>
+                        <img src="/images/Ellipse 7.png" alt="First Customer Photo" class="reviews_list_item_img">
+                        <p class="reviews_list_item_p">Manager</p>
                     </div>
                 </li>
-                <li>
+                <li class="about_list_item">
                     <div>   <!--customer2-->
-                        <h3>Jaydon Rosser</h3>
-                        <img src="/images/Ellipse 72.png" alt="Second Customer Photo">
-                        <p>Manager</p>
-                        <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim officiis adipisci voluptatibus perferendis vitae libero, architecto omnis cumque in nostrum.</blockquote>
+                        <div class="bq-bg">
+                            <blockquote>Lorem Lodipismolestias ducimus? Autem, corpois? ipsum, dolor sit amet consectetur adipisicing elit. Enim officiis adipisci voluptatibus perferendis vitae libero, architecto omnis cumque in nostrum.</blockquote>
+                        </div>
+                        <img src="/images/Polygon 1.jpg" alt="" class="polygon">
+                        <h3 class="reviews_list_item_title">Jaydon Rosser</h3>
+                        <img src="/images/Ellipse 72.png" alt="Second Customer Photo" class="reviews_list_item_img">
+                        <p class="reviews_list_item_p">Manager</p>
                     </div>
                 </li>
-                <li>
+                <li class="about_list_item">
                     <div>   <!--customer3-->
-                        <h3>Cooper Dorwart</h3>
-                        <img src="/images/Ellipse 73.png" alt="Second Customer Photo">
-                        <p>Manager</p>
-                        <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim officiis adipisci voluptatibus perferendis vitae libero, architecto omnis cumque in nostrum.</blockquote>
+                        <div class="bq-bg">
+                            <blockquote>Lorem Lodipismolestias ducimus? Autem, corpois? ipsum, dolor sit amet consectetur adipisicing elit. Enim officiis adipisci voluptatibus perferendis vitae libero, architecto omnis cumque in nostrum.</blockquote>
+                        </div>
+                        <img src="/images/Polygon 1.jpg" alt="" class="polygon">
+                        <h3 class="reviews_list_item_title">Cooper Dorwart</h3>
+                        <img src="/images/Ellipse 73.png" alt="Second Customer Photo" class="reviews_list_item_img">
+                        <p class="reviews_list_item_p">Manager</p>
                     </div>
                 </li>
             </ul>
         </section>
 
-        <section>       <!--banner2-->
-            <h2>Stylish axure design</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="">download</a>
+        <section class="banner2">       <!--banner2-->
+            <h2 class="about_title white_text">Stylish axure design</h2>
+            <hr class="about_hr whiteline">
+            <p class="about_p white_text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+            <div class="banner2_button">
+                <a href="" class="banner2_button_text">download</a>
+            </div>
         </section>
 
 
-        <section>       <!--contact-->
-            <h2>CONTACT US</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <form action="">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <p>Message</p>
-                <textarea name="message" id="" cols="40" rows="3"></textarea>
-                <p><input type="submit" value="Send Message"></p>
+        <section class="contact">       <!--contact-->
+            <h2 class="about_title">CONTACT US</h2>
+            <hr class="about_hr">
+            <p class="about_p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <form action="" class="contact_form">
+                <input type="text" placeholder="Name" class="contact_form_input">
+                <input type="text" placeholder="Email" class="contact_form_input">
+                <input type="password" placeholder="Password" class="contact_form_input">
+                <p class="contact_form_p">Message</p>
+                <textarea name="message" id="" cols="40" rows="3" class="contact_form_textarea"></textarea>
+                <div class="contact_button">
+                    <a href="" class="contact_button_text">Send Message</a>
+                </div>
+    
             </form>
         </section>
     </main>
 
 
-    <footer>
-        <ul>
-            <li>
-                <a href="">
+    <footer class="footer">
+        <ul class="footer_list">
+            <li class="footer_list_item">
+                <a href="" >
                     <img src="/images/facebook.png" alt="facebook">
                 </a>
             </li>
-            <li>
-                <a href=""><img src="/images/twitter.png" alt="twitter">
+            <li class="footer_list_item">
+                <a href="">
+                    <img src="/images/twitter.png" alt="twitter">
                 </a>
             </li>
-            <li>
+            <li class="footer_list_item">
                 <a href="">
                     <img src="/images/linkedin.png" alt="LinkedIN">
                 </a>
             </li>
-            <li>
+            <li class="footer_list_item">
                 <a href="">
                     <img src="/images/pintrest.png" alt="pintrest">
                 </a>
             </li>
-            <li>
+            <li class="footer_list_item">
                 <a href="">
                     <img src="/images/inst.png" alt="Instaram">
                 </a>
             </li>
-            <li>
+            <li class="footer_list_item">
                 <a href="">
                     <img src="/images/git.png" alt="GitHub">
                 </a>
             </li>
-            <li>
+            <li class="footer_list_item">
                 <a href="">
                     <img src="/images/rss.png" alt="RSS">
                 </a>
             </li>
         </ul>
-        <p>Copyright 2015 Axure Themes</p>
+        <p class="footer_p">Copyright 2015 Axure Themes</p>
     </footer>
 
 
