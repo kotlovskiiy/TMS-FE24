@@ -13,51 +13,57 @@
 
 <body>
     <header class="header">
-        <nav>   <!--logo-->
-            <div class="container1">
-                <a href="" class="header_logo">
+        <div class="container1">
+            <div class="header__inner"> 
+                <div  class="header_logo"> <!-- logo -->
                     <img src="./images/logo_menu.png" alt="AXIT LOGO">
-                </a>
+                </div>
+                
+                <menu class="header_menu">   <!--menu-->
+                    <ul class="header_menu_list" >
+                        <li class="header_menu_list_item">
+                            <a href="" class="header_menu_link">features</a>
+                        </li>
+                        <li class="header_menu_list_item">
+                            <a href="" class="header_menu_link">about</a>
+                        </li>
+                        <li class="header_menu_list_item">
+                            <a href="" class="header_menu_link">pricing</a>
+                        </li>
+                        <li class="header_menu_list_item">
+                            <a href="" class="header_menu_link">reviews</a>
+                        </li>
+                        <li class="header_menu_list_item">
+                            <a href="" class="header_menu_link">contact</a>
+                        </li>
+                    </ul>
+                </menu>
+
             </div>
-        </nav>     
-        <menu class="header_menu">   <!--menu-->
-            <ul class="header_menu_list" >
-                <li class="header_menu_list_item">
-                    <a href="" class="header_menu_link">features</a>
-                </li>
-                <li class="header_menu_list_item">
-                    <a href="" class="header_menu_link">about</a>
-                </li>
-                <li class="header_menu_list_item">
-                    <a href="" class="header_menu_link">pricing</a>
-                </li>
-                <li class="header_menu_list_item">
-                    <a href="" class="header_menu_link">reviews</a>
-                </li>
-                <li class="header_menu_list_item">
-                    <a href="" class="header_menu_link">contact</a>
-                </li>
-            </ul>
-        </menu>    
+        </div>    
     </header>
     <main>
 
 
         <section class="banner1">   <!--banner1-->
-            <img src="./images/logo_big.png" alt="AXIT LOGO" class="banner1_logo">
-            <h1 class="banner1_title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-            <hr>
-            <p class="banner1_phrase">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <div class="banner1_button">
-                <a href="" class="banner1_button_text">download</a>
+            <div class="container2">
+                <div class="banner1__inner">
+                    <div>
+                        <img src="./images/logo_big.png" alt="AXIT LOGO" class="banner1_logo">
+                        <h1 class="banner1_title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                        <hr>
+                        <p class="banner1_p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="" class="btn">download</a>
+                    </div>
+                    <form action="" class="banner1_form">       <!--form-->
+                        <h4 class="banner1_form_title">try your <span>free</span> trial today</h4>
+                        <input type="text" placeholder="Name" class="input1">
+                        <input type="text" placeholder="Email" class="input1">
+                        <input type="password" placeholder="Password" class="input1">
+                        <a href="" class="form_btn">Get Started</a>
+                    </form>
+                </div>
             </div>
-            <form action="" class="banner1_form">       <!--form-->
-                <h4 class="banner1_form_title">try your <span>free</span> trial today</h4>
-                <input type="text" placeholder="Name" class="input1">
-                <input type="text" placeholder="Email" class="input1">
-                <input type="password" placeholder="Password" class="input1">
-                <p><input type="submit" value="Get Started" class="input4"></p>
-            </form>
         </section>
         
 
