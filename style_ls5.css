@@ -1,7 +1,323 @@
-.box1 {
-    height: 2000px;
-    background-image: url(./TMS-FE24/images/main-banner.jpg);
-    background-repeat: no-repeat;
-    background-color: rgb(0, 0, 0);
+* {
+    box-sizing: border-box;
+}
 
+.main_box {
+    position: relative;
+    display: block;
+    background-color: rgb(183, 208, 218);
+    border: 4px solid black;
+    height: 800px;
+    width: 1560px;
+    margin: 50px auto;
+    z-index: 1;
+}
+
+.earth {
+    background-color: rgb(100, 63, 20);
+    border-radius: 50%;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 90%;
+    z-index: 2;
+}
+
+.hide_earth_bottom {
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: -20.5%;
+    z-index: 99;
+}
+
+.sweet_home {
+    position: absolute;
+    bottom: 9%;
+    right: 35%;
+    z-index: 3;
+}
+
+.mainroom {
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+
+.roof {
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 75px solid rgb(15, 148, 137);
+    z-index: 5;
+}
+
+.door {
+    height: 150px;
+    width: 75px;
+    background-color: burlywood;
+    position: absolute;
+    bottom: 0%;
+    left: 6%;
+    border: 3px solid rgb(175, 145, 106);
+}
+
+.window {
+    width: 75px;
+    height: 75px;
+    background-color: rgb(36, 113, 143);
+    position: absolute;
+    bottom: 23%;
+    right: 10%;
+    border: 2px solid black;
+}
+
+.window_left {
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid black;
+}
+
+.window_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    border-bottom: 2px solid black;
+}
+
+.top_window {
+    display: block;
+    background-color: rgb(36, 113, 143);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7%;
+    right: 40%;
+    border: 2px solid black;
+}
+
+.top_tube {
+    width: 40px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    top: -40px;
+    left: 15%;
+    z-index: -1;
+    border: 2px solid black;
+}
+
+.branch {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 9%;
+    left: 39%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.branch_plate {
+    height: 100%;
+    width: 18%;
+    display: inline-block;
+    background-color: rgb(148, 79, 32);
+}
+
+.branch_top {
+    width: 0;
+	height: 0;
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-bottom: 36px solid rgb(148, 79, 32);
+    position: absolute;
+    top: -36px;
+}
+
+.tree {
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    bottom: 8%;
+    left: 30%;
+}
+
+.stump {
+    width: 30%;
+    height: 25%;
+    background-color: rgb(107, 77, 11);
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+
+.triangle {
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid darkgreen;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+}
+
+.mid {
+    position: absolute;
+    top: 22%;
+}
+
+.bottom {
+    position: absolute;
+    top: 44%;
+}
+
+.sun {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 208, 0);
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.cloud1 {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+
+.cloud1_item {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(243, 237, 237);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.cloud1_item:first-child {
+    top: 15%;
+}
+
+.cloud1_item:nth-child(2) {
+    left: 35%;
+}
+
+.cloud1_item:nth-child(3) {
+    right: -20%;
+    top: 25%;
+}
+
+.cloud1_item:last-child {
+    bottom: -30%;
+    left: 35%;
+}
+
+.cloud2 {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 5%;
+    right: 25%;
+}
+
+.cloud2_item {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(243, 237, 237);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.cloud2_item:first-child {
+    top: 13%;
+    left: -10%;
+}
+
+.cloud2_item:nth-child(2) {
+    left: 35%;
+}
+
+.cloud2_item:nth-child(3) {
+    right: -45%;
+    top: 25%;
+}
+
+.cloud2_item:last-child {
+    bottom: 5%;
+    left: 35%;
+}
+
+
+.rainbow {
+    height: 400px;
+    width: 780px;
+    position: absolute;
+    bottom: 7%;
+    right: 0;
+    display: inline-block;
+}
+
+.rainbow_item {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 100%;
+}
+
+.rainbow_item:first-child {
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+
+.rainbow_item:nth-child(2) {
+    width: 480px;
+    height: 280px;
+    background-color: orange;
+}
+
+.rainbow_item:nth-child(3) {
+    width: 460px;
+    height: 260px;
+    background-color: yellow;
+}
+
+.rainbow_item:nth-child(4) {
+    width: 440px;
+    height: 240px;
+    background-color: green;
+}
+
+.rainbow_item:nth-child(5) {
+    width: 420px;
+    height: 220px;
+    background-color: lightblue;
+}
+
+.rainbow_item:nth-child(6) {
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+}
+
+.rainbow_item:nth-child(7) {
+    width: 380px;
+    height: 180px;
+    background-color: purple;
+}
+
+.rainbow_item:nth-child(8) {
+    width: 360px;
+    height: 160px;
+    background-color: rgb(183, 208, 218);
 }
