@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        ol, ul {
+            width: 120px;
+            display: inline-block;
+        }
+        li {
+            font-style: italic;
+        }
+        .list2 li::marker {
+            color: red;
+            font-size: 2em;
+        }
+        .list1 {
+            list-style-type: none;
+            counter-reset: my-counter;
+        }
+        .list1 li::before {
+            content: counter(my-counter);
+            counter-increment: my-counter;
+            color: red;
+            font-size: 1.8em;
+            margin-right: 0.1em;
+        }
+    </style>
+</head>
+<body>
+    <ol class="list1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <ul class="list2">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+</body>
+</html>
