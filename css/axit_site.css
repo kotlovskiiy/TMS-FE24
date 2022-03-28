@@ -13,6 +13,11 @@ h2, .title2 {
     text-transform: uppercase;
 }
 
+h3, .title3 {
+    font: 700 30px 'Open Sans', sans-serif;
+    line-height: 41px;
+}
+
 h4, .title4 {
     font: 700 24px 'Open Sans', sans-serif;
     line-height: 33px;
@@ -21,6 +26,11 @@ h4, .title4 {
 .text1 {
     font: 400 18px 'Raleway', sans-serif;
     line-height: 21px;
+}
+
+.text2 {
+    font: 400 14px 'Open Sans', sans-serif;
+    line-height: 19px;
 }
 
 .container1 {
@@ -124,9 +134,12 @@ h4, .title4 {
 }
 
 .banner1 {
-    background-color: blanchedalmond;
     padding-top: 231px;
     padding-bottom: 180px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/main-banner.jpg") 50% 50% no-repeat;
+    background-size: cover;
+
 }
 
 .banner1__inner {
@@ -253,24 +266,48 @@ h4, .title4 {
 
 .tabs {
     background-color: rgb(255, 255, 255);
-    width: 82%;
-    margin-left: 170px;
-    border: 1px solid;
+    margin-top: 100px;
+}
+
+.tab_ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tab {
+    height: 37px;
+    width: 203px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    text-align: center;
+}
+
+.tab:hover {
+    border: 1px solid black;
+    border-bottom: 1px solid white;
+    z-index: 2;
+}
+
+.tabs_list {
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.tabs_inner {
+    display: flex;
+    justify-content: space-between;
 }
 
 .tabs_list_1_title {
     margin-left: 100px;
-    width: 570px;
-    height: 124px;
-    text-align:center;
-    line-height: 100px;
-    font-size: 30px;
+    margin-top: 42px;
+    margin-bottom: 69px;
 }
 
 .tabs_list_1_p {
     margin-left: 100px;
-    width: 570px;
-    height: 210px;
+    max-width: 570px;
+    margin-bottom: 27px;
 }
 
 .tabs_list_1_button {
@@ -290,65 +327,55 @@ h4, .title4 {
 }
 
 .tabs_list_1_img {
-    margin-left: 1090px;
-    margin-top: -392px;
 }
 
 .about {
-    width: 82%;
-    margin-left: 170px;
 }
 
 .about_title {
-    font-size: 36px;
-    height: 150px;
     text-align: center;
-    line-height: 150px;
+    margin-top: 104px;
+    margin-bottom: 54px;
 }
 
 .about_hr {
     width: 170px;
     height: 0px;
     border: 1px solid #EC7979;
+    margin-bottom: 40px;
 }
 
 .about_p {
     text-align: center;
-    margin-top: 40px;
+    margin-bottom: 71px;
 }
 
 .about_list {
-    margin-left: 170px;
-    margin-top: 71px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .about_list_item {
-    display: inline-block;
+    text-align: center;
     width: 370px;
-    height: 383px;
-    margin-right: 5%;
+    border: 1px solid black;
 }
 
 .about_list_item_img {
-    margin-left: 150px;
-    margin-top: 30px;
 }
 
 .about_list_item_title {
-    font-size: 24px;
-    width: 369px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
     text-transform: capitalize;
+    margin: 33px auto;
 }
 
 .about_list_item_p {
+    margin-top: 8px;
     text-align: center;
+    margin-bottom: 58px;
 }
 
 .price {
-    height: 900px;
     background: #F5F5F5;
 }
 
