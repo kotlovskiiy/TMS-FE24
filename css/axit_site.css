@@ -33,6 +33,11 @@ h4, .title4 {
     line-height: 19px;
 }
 
+.text3 {
+    font: 700 36px 'Raleway', sans-serif;
+    line-height: 42px;
+}
+
 .container1 {
     max-width: 1540px;
     padding: 0 15px;
@@ -358,7 +363,6 @@ h4, .title4 {
 .about_list_item {
     text-align: center;
     width: 370px;
-    border: 1px solid black;
 }
 
 .about_list_item_img {
@@ -380,39 +384,40 @@ h4, .title4 {
 }
 
 .price_title {
-    height: 150px;
+    padding-top: 104px;
     text-align: center;
-    line-height: 150px;
     text-transform: uppercase;
-    font-size: 36px;
+    margin-bottom: 54px;
 }
 
 .price_p {
-    padding-top: 40px;
     text-align: center;
 }
 
 .price_list {
-    margin-left: 350px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .price_list_item {
-    display: inline-block;
     width: 370px;
-    height: 510px;
-    margin-top: 79px;
-    margin-right: 4%;
+    margin-bottom: 50px;
+}
+
+.price_list_item:hover {
+    position: relative;
+    bottom: 20px;
+    box-shadow: 0px 0px 10px #333;
 }
 
 .price_list_item_div1 {
-    height: 60px;
     background-color: #333;
     border-bottom: 2px solid #F5F5F5;
     text-align: center;
     color: #F5F5F5;
-    line-height: 60px;
-    font-size: 24px;
     text-transform: capitalize;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .price_list_item_div2 {
@@ -436,9 +441,6 @@ h4, .title4 {
     text-transform: capitalize;
 }
 
-.top {
-    margin-top: 49px;
-}
 
 .price_list_item_li {
     height: 50px;
@@ -452,58 +454,53 @@ h4, .title4 {
 }
 
 .reviews {
-    width: 82%;
-    height: 630px;
-    margin-left: 170px;
 }
 
 .reviews_title {
-    height: 150px;
-    text-align: center;
-    line-height: 150px;
+    margin-top: 104px;
     text-transform: uppercase;
-    font-size: 36px;
-    color: black;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.reviews_p {
+    text-align: center;
+    margin-bottom: 83px;
 }
 
 .bq-bg {
     width: 370px;
-    height: 180px;
     background: #E2E2E2;
     border-radius: 10px;
-    text-align: center;
 }
 
-blockquote {
-    font-size: 18px;
-    padding-top: 35px;
-    margin-left: 20px;
-    width: 320px;
+.bq {
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.rev_sectiom {
+    margin-top: 66px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .reviews_list_item_title {
-    width: 269px;
-    height: 54px;
-    font-size: 24px;
-    line-height: 54px;
-    margin-left: 100px;
-    margin-top: 45px;
+    text-align: center;
 }
 
 .reviews_list_item_p {
-    width: 270px;
-    height: 21px;
-    font-size: 18px;
-    margin-left: 100px;
-    margin-top: -20px;
+    text-align: center;
 }
 
 .reviews_list_item_img {
-    margin-top: -40px;
 }
 
 .polygon {
-    margin-left: 65px;
+    position: relative;
+    top: 20px;
+    right: 100px;
 }
 
 .banner2{
