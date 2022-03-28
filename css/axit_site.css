@@ -486,15 +486,20 @@ h4, .title4 {
     justify-content: flex-start;
 }
 
+
 .reviews_list_item_title {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .reviews_list_item_p {
-    text-align: center;
+    text-align: left;
+    margin-bottom: 64px;
 }
 
 .reviews_list_item_img {
+    margin-right: 25px;
+    object-fit: none;
 }
 
 .polygon {
@@ -504,35 +509,43 @@ h4, .title4 {
 }
 
 .banner2{
-    background: #00000080;
-    margin-top: 40px;
-    height: 442px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url("../images/banner2.png") 50% 50% no-repeat;
+    background-size: cover;
 }
 
-.white_text{
+.banner2_title {
+    padding-top: 104px;
+    text-align: center;
     color: #fff;
+    margin-bottom: 54px;
 }
 
 .whiteline {
     border: 1px solid #fff;
+}
 
+.banner2_p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 73px;
 }
 
 .banner2_button {
     width: 270px;
-    height: 58px;
     text-align:center;
     border: 1px solid white;
-    font-size: 18px;
-    line-height: 58px;
-    margin-left: 43%;
-    margin-top: 70px;
 }
 
 .banner2_button_text {
     color: white;
     text-decoration: none;
     text-transform: capitalize;
+}
+.banner2_btn  {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 .contact {
