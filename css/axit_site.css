@@ -23,6 +23,7 @@ h4, .title4 {
     line-height: 33px;
 }
 
+
 .text1 {
     font: 400 18px 'Raleway', sans-serif;
     line-height: 21px;
@@ -53,6 +54,8 @@ h4, .title4 {
 }
 
 .btn {
+    font: 600 18px 'Open Sans', sans-serif;
+    line-height: 25px;
     display: inline-block;
     width: 270px;
     height: 58px;
@@ -61,10 +64,8 @@ h4, .title4 {
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: capitalize;
-    line-height: 25px;
-    padding: 16.5px 0;
+    padding: 15px 0;
     text-align: center;
-    font-weight: 600;
     outline: none;
 }
 
@@ -226,11 +227,11 @@ h4, .title4 {
     margin-top: 42px;
 }
 
-.form_btn:hover {
+.form_btn:hover , .btn2:hover {
     background-color: #AB4949;
 }
 
-.form_btn:active {
+.form_btn:active , .btn2:active {
     background-color:#EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
 }
@@ -315,21 +316,22 @@ h4, .title4 {
     margin-bottom: 27px;
 }
 
-.tabs_list_1_button {
+.btn2 {
     margin-left: 100px;
+    display: inline-block;
     width: 270px;
     height: 58px;
     background: #EC7979;
     text-align: center;
-    line-height: 55px;
+    color: #fff;
+    text-decoration: none;
+    font: 600 18px 'Open Sans', sans-serif;
+    line-height: 25px;
+    padding: 15px 0;
 }
 
-.tabs_list_1_text {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    text-transform: capitalize;
-}
+
+
 
 .tabs_list_1_img {
 }
@@ -498,6 +500,7 @@ h4, .title4 {
 }
 
 .reviews_list_item_img {
+    align-self: flex-start;
     margin-right: 25px;
     object-fit: none;
 }
@@ -548,14 +551,15 @@ h4, .title4 {
     padding-bottom: 50px;
 }
 
-.contact {
-    width: 82%;
-    height: 622px;
-    margin-left: 170px;
+.contact_title {
+    text-align: center;
+    margin-top: 104px;
+    margin-bottom: 54px;
 }
 
-.contact_form {
-
+.contact_p {
+    text-align: center;
+    margin-bottom: 90px;
 }
 
 .contact_form_input {
@@ -564,7 +568,6 @@ h4, .title4 {
     margin-top: 20px;
     width: 370px;
     height: 38px;
-    margin-left: 300px;
     border-bottom: 1px solid black;
     color: #BDBDBD;
 }
@@ -572,15 +575,11 @@ h4, .title4 {
 .contact_form_p {
     color: #BDBDBD;
     font-size: 14px;
-    margin-left: 800px;
-    margin-top: -160px;
 }
 
 .contact_form_textarea {
     display: block;
     border: none;
-    margin-top: 20px;
-    margin-left: 800px;
     border-bottom: 1px solid black;
     width: 569px;
     height: 120px;
