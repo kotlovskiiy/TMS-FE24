@@ -242,7 +242,6 @@ h4, .title4 {
 }
 
 .social {
-    height: 140px;
     background: #F8EFEF;
 }
 
@@ -259,20 +258,26 @@ h4, .title4 {
 
 .social_p {
     max-width: 470px;
+    margin-bottom: 18px;
 }
 
 .social_list {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .social_list_item {
-    display: inline-block;
-    text-decoration: none;
-    padding: 33px 0;
-    padding-right: 40px;
+    margin: 0 15px;
 }
 
+.social_list_item:first-child {
+    margin-left: 0;
+}
+
+
 .social_list_item:last-child {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 .tabs {
@@ -319,6 +324,10 @@ h4, .title4 {
     margin-left: 100px;
     max-width: 570px;
     margin-bottom: 27px;
+}
+
+.tabs_btn{
+    margin-bottom: 54px;
 }
 
 .btn2 {
@@ -476,7 +485,7 @@ h4, .title4 {
 }
 
 .bq-bg {
-    width: 370px;
+    max-width: 370px;
     background: #E2E2E2;
     border-radius: 10px;
 }
@@ -630,22 +639,22 @@ h4, .title4 {
 
 .footer {
     background-color: black;
-    height: 164px;
 }
 
 .footer_list {
-    padding-left:35%;
-    padding-top: 40px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px ;
 }
 
 .footer_list_item {
-    display: inline;
-    margin-right: 30px;
-    text-decoration: none;
+    margin: 0 18px;
+    
 }
 
 .footer_p {
     color: rgba(255, 255, 255, 0.336);
     text-align: center;
-    margin-top: 20px;
+    padding-bottom: 27px;
 }
