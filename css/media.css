@@ -35,6 +35,7 @@
         font-size: 14px;
         line-height: 16px;
     }
+    
     .btn {
         width: 180px;
         height: 50px;
@@ -140,5 +141,79 @@
     }
     .about_list_item_title {
         margin: 28px auto;
+    }
+    /* PRICE */
+    .price_title {
+        margin-top: 96px;
+        margin-bottom: 46px;
+    }
+    .price_list_item {
+        width: 310px;
+    }
+    .price_list_item_div1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .price_list_item_div2 {
+        padding: 23px 0;
+    }
+    .price_list_item_div3 {
+        padding: 11px 0;
+    }
+    /* REVIEWS */
+    .reviews_title {
+        margin-top: 96px;
+        margin-bottom: 46px;
+    }
+    .reviews_p {
+        margin-bottom: 32px;
+    }
+    .bq-bg {
+        max-width: 310px;
+    }
+    .bq {
+        padding-top:20px;
+        padding-bottom: 5px;
+    }
+    .polygon {
+        width: 26px;
+        top: 18px;
+    }
+    .rev_sectiom {
+        margin-top: 50px;
+    }
+    .reviews_list_item_title {
+        margin-bottom: 20px;
+    }
+    .reviews_list_item_p {
+        margin-bottom: 55px;
+    }
+    /* BANNER_2 */
+    .banner2_title {
+        padding-top: 96px;
+        margin-bottom: 46px;
+    }
+    .banner2_p {
+        margin-bottom: 32px;
+    }
+    .small_btn {
+        width: 318px;
+    }
+    /* CONTACT */
+    .contact_title {
+        margin-top: 96px;
+        margin-bottom: 46px;
+    }
+    .contact_p {
+        margin-bottom: 70px;
+    }
+    .in1 , .in2 , .in3 , .texta {
+        max-width: 450px;
+    }
+    /* FOOTER */
+
+    .footer_list_item img {
+        width: 45px;
+        height: 45px;
     }
 }
