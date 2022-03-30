@@ -217,3 +217,9 @@
         height: 45px;
     }
 }
+
+@media (max-width:991px) {
+    .container2 {
+        max-width: 768px;
+    }
+}
