@@ -1,0 +1,144 @@
+@media (max-width:1400px) {
+    .container2 {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width:1330px) {
+    .header_logo {
+        position: relative;
+        right: 0em;
+    }
+}
+
+@media (max-width:1199px) {
+    .container2 {
+        max-width: 992px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .text1 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .btn {
+        width: 180px;
+        height: 50px;
+        padding: 10px 0;
+    }
+    /* BANNER_1 */
+    .banner1 {
+        padding-top: 154px;
+        padding-bottom: 130px;
+    }
+    .banner1_logo {
+        width: 183px;
+        height: 75px;
+        margin-bottom: 54px;
+    }
+    .banner1_title {
+        margin-bottom: 41px;
+        max-width: 454px;
+    }
+    .banner1 hr {
+        width: 115px;
+        height: 0px;
+        border: 1px solid #FFFFFF;
+        margin-bottom: 31px;
+    }
+    .banner1_p {
+        margin-bottom: 31px;
+    }
+    .banner1_form {
+        width: 398px;
+    }
+    .banner1_form_title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .input1 {
+        width: 298px;
+    }
+    .form_btn {
+        width: 398px;
+        margin-top: 50px;
+    }
+    /* SOCIAL */
+    .social_title {
+        padding: 8px 0;
+    }
+    .social_title , .social_p {
+        margin-bottom: 13px;
+    }
+    .social_p{
+        max-width: 402px;
+    }
+    .social_list{
+        margin-top: 20px;
+    }
+    .social_list_item {
+        margin: 0 10px;
+    }
+    .social_list_item img {
+        width: 64px;
+        height: 64px;
+    }
+    /* TABS */
+    .tabs {
+        margin-top: 50px;
+    }
+    .tabs_list_1_title{
+        margin-left: 85px;
+        margin-top: 28px;
+        margin-bottom: 66px;
+    }
+    .tabs_list_1_img {
+        width: 389px;
+        height: 385px;
+    }
+    .tabs_list_1_p {
+        margin-left: 50px;
+        max-width: 483px;
+    }
+    .tabs_btn {
+        width: 232px;
+        margin-left: 50px;
+        margin-bottom: 27px;
+    }
+    /* ABOUT */
+    .about_title {
+        margin-top: 96px;
+        margin-bottom: 46px;
+    }
+    .about_hr {
+        width: 142px;
+        margin-bottom: 32px;
+    }
+    .about_p {
+        margin-bottom: 32px;
+    }
+    .about_list_item {
+        width: 318px;
+    }
+    .about_list_item_img {
+        width: 147px;
+        height: 147px;
+    }
+    .about_list_item_title {
+        margin: 28px auto;
+    }
+}
