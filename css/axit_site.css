@@ -552,17 +552,17 @@ h4, .title4 {
     margin-bottom: 73px;
 }
 
-.banner2_button {
+/* .banner2_button {
     width: 270px;
     text-align:center;
     border: 1px solid white;
-}
+} */
 
-.banner2_button_text {
+/* .banner2_button_text {
     color: white;
     text-decoration: none;
     text-transform: capitalize;
-}
+} */
 .banner2_btn  {
     display: flex;
     justify-content: center;
