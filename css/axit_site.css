@@ -97,6 +97,9 @@ h4, .title4 {
     padding: 0;
 }
 
+.h_burger {
+    display: none;
+}
 
 .header_logo {
     position: relative;
@@ -506,6 +509,9 @@ h4, .title4 {
     justify-content: flex-start;
 }
 
+.r_radio , .r_label {
+    display: none;
+}
 
 .reviews_list_item_title {
     text-align: center;
