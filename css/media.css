@@ -687,8 +687,9 @@
         left: 45%;
     }
     .contact_form {
+        margin-left: 20px;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 70px 70px 70px 100px 100px;
+        grid-template-rows: 1fr 70px 70px 70px 200px 100px;
     }
     .div1 {
         grid-column: 1 / 2;
@@ -699,5 +700,8 @@
     }
     .btn3 {
         grid-row: 6 / 7;
+    }
+    .in1 , .in2 , .in3 , .texta {
+        max-width: 390px;
     }
 }
